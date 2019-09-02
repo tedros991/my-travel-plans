@@ -21,6 +21,10 @@ body {
     width: 80%;
 }
 
+.destination:hover h2 {
+    transform: rotate(0deg);
+}
+
 .destination-container {
     display: flex;
     flex-flow: wrap;
@@ -42,7 +46,14 @@ body {
 
 h2 {
     margin: 0;
+<<<<<<< HEAD
     transform: rotate(-45deg
+||||||| merged common ancestors
+    transform: rotate(-45deg);
+=======
+    transform: rotate(-45deg);
+    transition: transform 0.5s;
+>>>>>>> 95c87e9da1b46824cb413b738cbd128cf3a6e0fd
     text-shadow: 0 0 5px #01579b;
 }
 
